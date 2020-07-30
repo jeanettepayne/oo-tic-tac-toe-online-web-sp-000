@@ -33,17 +33,17 @@ end
 
 def position_taken?(index)
   if @board[index] == " " || @board[index] == "" || @board [index] == nil
-    FALSE
+    false 
   else
-    TRUE
+    true 
   end
 end
 
 def valid_move?(index)
   if index.between?(0, 8) && @board[index] != "X" && @board[index] != "O"
-    TRUE
+    true
   else
-    FALSE
+    false
   end
 end
   
