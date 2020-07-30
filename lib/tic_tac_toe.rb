@@ -47,18 +47,21 @@ def valid_move?(index)
   end
 end
 
-def turn
-  puts "Please enter 1-9:"
-  input = gets.strip
-  index = input_to_index(input)
+
+
+# def turn
+#   puts "Please enter 1-9:"
+#   input = gets.strip
+#   index = input_to_index(input)
   
-  if valid_move?(index) == true
-    value = "X" || value == "O"
-    move(board, index, current_player(board))
-    display_board
-  else
-    turn
-  end
-end
+#   if valid_move?(index) == true
+#     value = "X" || value == "O"
+#     move(index, token,)
+#     # move(board, index, current_player(board))
+#     display_board
+#   else
+#     turn
+#   end
+# end
   
 end
