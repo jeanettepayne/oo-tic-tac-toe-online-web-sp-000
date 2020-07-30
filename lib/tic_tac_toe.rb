@@ -57,6 +57,8 @@ def turn_count
  counter
 end
 
+
+
 # def turn
 #   puts "Please enter 1-9:"
 #   input = gets.strip
