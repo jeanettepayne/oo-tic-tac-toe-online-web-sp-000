@@ -96,8 +96,8 @@ def draw?
   full? && !won?
 end
 
-def over?(board)
-  won?(board) || draw?(board)
+def over?
+  won? || draw?
 end
   
 end
