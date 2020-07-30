@@ -79,6 +79,13 @@ def turn
   end
 end
 
-
+def won?
+ WIN_COMBINATIONS.detect do |win_combination|
+   combo1 = win_combination[0]
+   combo2 = win_combination[1]
+   combo3 = win_combination[2]
+  board[combo1] == board[combo2] && board[combo2] == board[combo3] && board[combo1] != " "
+ end
+end
   
 end
