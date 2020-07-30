@@ -87,5 +87,7 @@ def won?
   @board[combo1] == @board[combo2] && @board[combo2] == @board[combo3] && @board[combo1] != " "
  end
 end
+
+
   
 end
