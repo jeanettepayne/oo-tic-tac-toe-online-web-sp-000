@@ -72,7 +72,7 @@ def turn
   
   if valid_move?(index) == true
     value = "X" || value == "O"
-    move(board, index, current_player)
+    move(index, current_player)
     display_board
   else
     turn
