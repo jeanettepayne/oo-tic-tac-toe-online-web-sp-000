@@ -79,11 +79,6 @@ def turn
   end
 end
 
-if won?
-      winner(board) == "X" || winner(board) == "O" 
-      puts "Congratulations #{winner(board)}!" 
-   elsif draw?(board)
-      puts "Cat's Game!"
-  end
+
   
 end
