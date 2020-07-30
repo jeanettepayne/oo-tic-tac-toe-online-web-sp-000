@@ -57,7 +57,13 @@ def turn_count
  counter
 end
 
-
+def current_player
+  if turn_count % 2 == 0 
+    return "X"
+  elsif turn_count % 2 != 0 
+    return "O"
+  end
+end
 
 # def turn
 #   puts "Please enter 1-9:"
